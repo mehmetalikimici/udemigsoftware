@@ -1,0 +1,225 @@
+:root{
+    --maincolor: #669cf5;
+    --background : #35424A;
+}
+
+body{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #F4F4F4;
+}
+
+/* HEADER START */
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--background);
+    color: #fff;
+    min-height: 70px;
+    padding-top: 30px;
+    border-bottom: 3px solid var(--maincolor);
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 14px;
+}
+
+header .highlight, header .current a{
+    color: var(--maincolor);
+    font-weight: bold;
+}
+
+/* HEADER END */
+
+/* SECTION-1 START */
+
+#showcase{
+    background: url(img/showcase.jpg) no-repeat 0 -400px;
+    min-height: 400px;
+    text-align: center;
+    color: #fff;
+}
+
+#showcase h1{
+    font-size: 55px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+/* SECTION-1 END */
+
+/* SECTION-2 START */
+
+
+#newsletter{
+    background-color: var(--background);
+    color: #fff;
+    padding: 15px;
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input{
+    height: 25px;
+    width: 250px;
+    padding: 4px;
+}
+
+.button_1{
+    background-color: var(--maincolor);
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0 20px;
+}
+
+/* SECTION-2 END */
+
+/* SECTION-3 START */
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#boxes .box img{
+    width: 100px;
+}
+
+/* SECTION-3 END */
+
+/* FOOTER START */
+
+
+footer{
+    background-color: var(--maincolor);
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/* FOOTER END */
+
+/* SECTION-4 START */
+
+.dark{
+    background-color: var(--background);
+    padding: 15px;
+    color: #fff;
+    margin:10px 0;
+}
+
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+article#main-col{
+    float: left;
+    width: 60%;
+}
+
+/* SECTION-4 END */
+
+/* SECTION-5 START */
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 90%;
+    padding: 5px;
+}
+
+ul#services li{
+    background-color: #E6E6E6;
+    border: 1px solid #ccc;
+    padding: 20px;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+/* SECTION-5 END */
+
+/* RESPONSIVE START */
+
+    @media (max-width: 768px) {
+        header #branding,
+        header nav,
+        header nav li,
+        #newsletter h1,
+        #newsletter form,
+        #boxes .box,
+        article#main-col,
+        aside#sidebar{
+            text-align: center;
+            width:100%;
+            float: none;
+        }
+    }
+
+/* RESPONSIVE END */
+
+
+
+
+
+
+
+
+
