@@ -8,5 +8,6 @@
 <h2>Screen</h2>
 
 
-https://github.com/mehmetalikimici/new/assets/115737497/84365bf9-38c1-4873-bcce-c4067da56e5a
 
+
+![udemigsoftware](https://github.com/mehmetalikimici/new/assets/115737497/d63993bc-a115-4e3f-a134-bdafa0bf2332)
